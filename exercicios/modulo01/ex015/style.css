@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(145, 56, 145);
+    background-color: lightblue
+}
+
+h2 {
+    color: palevioletred;
+}
+
+p {
+    text-align: justify;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Grouping Tags</title>
+    <style>
+        body {
+            background: gray;
+            font: normal normal 16px Verdana, Arial, serif;
+            margin: 0px;
+        }
+        
+        header {
+            background-color: white;
+            height: 6em;
+
+            padding: 0.6em;
+            padding-bottom: 0.8em;
+
+            margin: 8px;
+        }
+
+        main {
+            margin: 8px;
+
+            border-radius: 20px;
+        }
+
+        nav {
+            background-color: gray;
+            box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.226);
+        }
+
+        nav > p {
+            color: white;
+
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        nav:hover > a{
+            display: inline;
+        }
+
+        nav:hover > p {
+            display:  none;
+        }
+
+        nav > a {
+            margin: 0.5em;
+
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+            display: none;
+        }
+
+        article {
+            background-color: white;
+
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            padding: 0.5em;
+
+            border-radius: 0.7em 0em;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+
+            font: normal bolder 2em 'Courier New';
+
+            text-align: center;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+
+            margin: 1.1em;
+
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site de notícias</h1>
+        <nav>
+            <p>MENU</p>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre games!</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur odit dignissimos quas beatae! Sapiente alias neque doloribus omnis odio quas, sequi officia. Quae voluptates dignissimos maxime molestiae debitis cum libero?</p>
+            </article>
+            <article>
+                <h2>Solo leveling muito bom!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti est quidem quibusdam repellat illo! Magnam neque, totam explicabo quibusdam esse, natus at error dolorem rerum dolorum vel tenetur nemo.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por mim!
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
