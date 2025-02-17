@@ -1,0 +1,178 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: "android";
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body {
+    background-color: #83E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3DDC84, #2FA866, #063D1E);
+
+    padding-bottom: 1em;
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+
+    color: white;
+
+    margin: 0px;
+    padding: 0.5em;
+    
+    text-align: center;
+
+}
+
+header > p {
+    font-size: 1.3em;
+
+    text-align: center;
+    margin: 0em;
+    padding: 0.5em;
+
+    color: lightgray;
+}
+
+nav > a {
+    color: white;
+    font-weight: bolder;
+
+    text-decoration: none;
+    padding: 0.7em;
+}
+
+nav > a:hover {
+    background-color: #c5ebd659;
+
+    border-radius: 5px;
+}
+
+main {
+    min-width: 400px;
+    max-width: 800px;
+    background-color: white;
+    text-align: justify;
+
+    margin: auto;
+    box-shadow: 6px 5px 6px 2px rgba(0, 0, 0, 0.233);
+}
+
+p {
+    padding: 20px;
+    margin: 0px;
+    text-indent: 30px;
+}
+
+strong {
+    color: #2FA866;
+}
+
+h1 {
+    font-family: 'android';
+
+    margin: 0px;
+    padding: 10px;
+    text-indent: 10px;
+
+    color: #063D1E;
+}
+
+h2 {
+    font-family: 'android';
+
+    margin: 0px 20px;
+
+    color: #063D1E;
+    background-image: linear-gradient(to right, #C5EBD6, white);
+}
+
+a.fora {
+    text-decoration: none;
+    color: #3DDC84;
+}
+
+a.fora:visited {
+    color: #2FA866;
+}
+
+a.fora::after {
+    content: "🔗";
+}
+
+img {
+    display: block;
+    margin: auto;
+    
+    min-width: 400px;
+    max-width: 800px;
+}
+
+div#video {
+    background-color: #063D1E;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+div#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+aside > h3 {
+    background-color: #2FA866;
+    color: white;
+
+    margin: 16px 16px 0px 16px;
+    padding: 10px 10px 10px 10px;
+
+    border-radius: 10px 10px 0px 0px;
+}
+
+#conteudo {
+    background-color: #C5EBD6;
+    margin: 0px 16px 0px 16px;
+
+    padding-bottom: 20px;
+}
+
+div#conteudo > p {
+    padding-bottom: 0px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+
+li {
+    text-decoration: underline;
+    align-items: stretch;
+}
+
+li::before {
+    content: "✔";
+}
+
+footer {
+    color: white;
+    background-color: #063D1E;
+    text-align: center;
+}
+
+footer > p {
+    padding: 10px;
+}

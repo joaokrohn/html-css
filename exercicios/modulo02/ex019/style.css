@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+
+    font: 16px Arial, Verdana, sans-serif
+}
+
+h1#principal {
+        text-align: center;
+        background-color: darkgreen;
+        color: white;
+
+        font-size: 3em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+h1 {
+    color: darkgreen
+}
+
+h2.basico {
+    background-image: linear-gradient(to right, green, white)
+}
+
+h2.intermediario {
+    background-image: linear-gradient(to right, yellow, white);
+}
+
+h2.avancado {
+    background-image: linear-gradient(to right, red, white);
+}
+
+p {
+    text-indent: 20px;
+}

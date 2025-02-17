@@ -1,0 +1,21 @@
+body {
+    background-color: #191C19;
+    color: white;
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+a.curso {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+    display: block;
+
+    margin: 10px;
+}

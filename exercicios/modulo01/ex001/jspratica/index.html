@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro exercício</title>
+</head>
+<body>
+    <h1 id="ptitulo">Olá, Mundo!</h1>
+    <hr>
+    <p>Esse é meu primeiro exercício em HTML!</p>
+    <p>Primeiro entre varias aspas, estou refazendo o curso! haha.</p>
+    <p>Vamos mudar o titulo do site dinâmicamente?</p>
+
+    <p><input type="text" name="titulo" id="titulo"> <input type="button" value="Confirmar" onclick="confirmar()"></p>
+    <script>
+        let campo = document.getElementById('titulo')
+        let titulo = document.getElementById('ptitulo')
+        let padrao = 'Digite o titulo aqui!'
+
+        campo.value = padrao
+        function confirmar() {
+            if (campo.value.length == 0 || campo.value == padrao) {
+                window.alert('Digite algo!')
+            } else {
+               titulo.innerHTML = campo.value
+               campo.value = ''
+            }
+        } 
+    </script>
+</body>
+</html>
